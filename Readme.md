@@ -15,7 +15,9 @@ Welcome to the Serverless Cloud Computing repository! This repository contains a
   - [Elastic Container Service (ECS)](#elastic-container-service-ecs)
   - [Elastic Beanstalk](#elastic-beanstalk)
   - [AWS Lambda](#aws-lambda)
-  - 
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Introduction
 
 Serverless computing allows you to build and run applications without managing infrastructure. This repository is aimed at helping developers understand and utilize serverless services offered by Google Cloud Platform (GCP) and Amazon Web Services (AWS). You'll find examples, best practices, and tutorials for leveraging these cloud services effectively.
@@ -41,4 +43,62 @@ Google App Engine is a fully managed serverless platform for developing and host
 
 ### Google Cloud Functions (GCF)
 
-Google Cloud Functions is a serverless execution environment for building and connecting cloud services. It
+Google Cloud Functions is a serverless execution environment for building and connecting cloud services. It enables you to run your code in response to events without provisioning or managing servers.
+
+- [GCF Overview](Google_Cloud/GCF/README.md)
+- [GCF Examples](Google_Cloud/GCF/examples)
+- [GCF Tutorials](Google_Cloud/GCF/tutorials)
+
+### Google Kubernetes Engine (GKE)
+
+Google Kubernetes Engine is a managed Kubernetes service for running containerized applications. It offers powerful orchestration capabilities and integrates seamlessly with other GCP services.
+
+- [GKE Overview](Google_Cloud/GKE/README.md)
+- [GKE Examples](Google_Cloud/GKE/examples)
+- [GKE Tutorials](Google_Cloud/GKE/tutorials)
+
+### Google Container Registry (GCR)
+
+Google Container Registry is a private container image registry that integrates with GKE and other Google Cloud services, enabling secure and efficient container image management.
+
+- [GCR Overview](Google_Cloud/GCR/README.md)
+- [GCR Examples](Google_Cloud/GCR/examples)
+- [GCR Tutorials](Google_Cloud/GCR/tutorials)
+
+## Amazon Web Services (AWS)
+
+### Elastic Container Service (ECS)
+
+Amazon ECS is a fully managed container orchestration service that makes it easy to run, stop, and manage Docker containers on a cluster.
+
+- [ECS Overview](AWS/ECS/README.md)
+- [ECS Examples](AWS/ECS/examples)
+- [ECS Tutorials](AWS/ECS/tutorials)
+
+### Elastic Beanstalk
+
+AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services. It supports several programming languages and frameworks.
+
+- [Elastic Beanstalk Overview](AWS/Elastic_Beanstalk/README.md)
+- [Elastic Beanstalk Examples](AWS/Elastic_Beanstalk/examples)
+- [Elastic Beanstalk Tutorials](AWS/Elastic_Beanstalk/tutorials)
+
+### AWS Lambda
+
+AWS Lambda lets you run code without provisioning or managing servers. You pay only for the compute time you consume.
+
+- [AWS Lambda Overview](AWS/Lambda/README.md)
+- [AWS Lambda Examples](AWS/Lambda/examples)
+- [AWS Lambda Tutorials](AWS/Lambda/tutorials)
+
+## Contributing
+
+We welcome contributions! If you have suggestions, enhancements, or bug fixes, please open an issue or submit a pull request. For more details, refer to our [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
+## License
+
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+---
+
+Thank you for visiting the Serverless Cloud Computing repository. We hope you find these resources helpful in your cloud computing journey!
