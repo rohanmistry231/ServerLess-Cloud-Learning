@@ -1,0 +1,48 @@
+{
+    "Statement": [
+        {
+            "Action": [
+                "ec2:DetachNetworkInterface",
+                "ec2:DescribeNetworkInterfaces",
+                "ec2:DeleteNetworkInterface",
+                "ec2:CreateNetworkInterface"
+            ],
+            "Effect": "Allow",
+            "Resource": "*",
+            "Sid": ""
+        },
+        {
+            "Action": [
+                "logs:PutLogEvents",
+                "logs:GetLogEvents",
+                "logs:DescribeLogStreams",
+                "logs:CreateLogStream",
+                "logs:CreateLogGroup"
+            ],
+            "Effect": "Allow",
+            "Resource": [
+                "arn:aws:logs:ap-south-1:875132019252:log-group:/aws/lambda/query:*",
+                "arn:aws:logs:ap-south-1:875132019252:log-group:/aws/lambda/query"
+            ],
+            "Sid": ""
+        },
+        {
+            "Action": [
+                "s3:ListBucket",
+                "s3:GetObject",
+                "rds:*",
+                "ec2:DescribeVpcs",
+                "ec2:DescribeVpcAttribute",
+                "ec2:DescribeSubnets",
+                "ec2:DescribeSecurityGroups",
+                "ec2:DescribeInternetGateways",
+                "ec2:DescribeAvailabilityZones",
+                "ec2:DescribeAccountAttributes"
+            ],
+            "Effect": "Allow",
+            "Resource": "*",
+            "Sid": ""
+        }
+    ],
+    "Version": "2012-10-17"
+}

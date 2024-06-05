@@ -1,0 +1,9 @@
+
+bucket	 mydb-query
+db_host	 dev-my.c13jmuerptqv.ap-south-1.rds.amazonaws.com
+db_name	 myappdb
+db_pass	 Mypassword
+db_port	 5432
+db_query CREATE TABLE IF NOT EXISTS app_user (id integer NOT NULL DEFAULT '1',name varchar(40))
+db_user	 myuser
+env	     dev
